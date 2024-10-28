@@ -1,9 +1,10 @@
+print("wait a few seconds ...")
+
+
 from ultralytics import YOLO
 import cv2
 import os
-import matplotlib.pyplot as plt
 import numpy as np
-import tqdm
 import face_recognition
 from numpy.ma.core import ceil
 
